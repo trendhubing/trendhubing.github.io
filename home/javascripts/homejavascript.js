@@ -146,7 +146,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // SHARE BUTTON
 function copyLink() {
-    navigator.clipboard.writeText('https://trendhubing-github.io').then(() => {
+    navigator.clipboard.writeText('https://trendhubing.github.io').then(() => {
         alert('Link copied! You can paste it on Instagram bio or story.');
     });
+
 }
