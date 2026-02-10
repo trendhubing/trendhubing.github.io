@@ -1,5 +1,5 @@
 const CACHE_NAME="trend-hubing-v1";
-const urlsToCache=["/","/index.html","/home.html","/home/styles/style.css","/home/javascripts/javascript.js","/home/styles/homestyle.css","/home/javascripts/homejavascript.js",
+const urlsToCache=["/","/home.html","/home/styles/style.css","/home/javascripts/javascript.js","/home/styles/homestyle.css","/home/javascripts/homejavascript.js",
 "/home/fashion.html","/home/color.html","/home/jewelry.html",
 "/home/food.html","/home/spicyfood.html","/home/dessert.html",
 "/home/car.html","/home/sportcar.html","/home/electriccar.html",
@@ -35,3 +35,4 @@ self.addEventListener("fetch", event => {
   );
 
 });
+
