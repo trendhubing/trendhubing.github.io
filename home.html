@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport"  content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8">
+    <title>Trend Hubing</title>
+<meta name="keywords" content="trending topics,latest trends,viral trends,popular trends,online trends,Trend Hubing,what's trending today,trend discovery website">
+<meta name="keywords" content="trending fashion2026,fashion trends,sustainable fashion trends, outfit ideas,fashion inspiration,trending Colors,jewelry trends">
+<meta name="keywords" content="trending food,food trends 2026,viral food trends, spicy food,dessert,street food,popular food">
+<meta name="keywords" content="travel trends 2026,trending destinations,adventure travel,popular travel spots,vacation ideas,travel inspiration,adventure,rides,trending rides">
+<meta name="keywords" content="trending cars,electric cars,sport cars,latest car,EV cars,future cars,cars 2026">
+<meta name="keywords" content="trending games,popular games,PC games,multiplayer games,viral games,2026 games">
+<meta name="keywords" content="BTS 2026,BTS songs,BTS biography,kpop trends,kpop,BLACKPINK,music,kim taehyung,jungkook,jimin,suga,jin,jhope,RM,aespa,seventeen,stray kids,NCT,itzy,twice,enhypen,ive,aomg artists,ikon,red velvet,treasure,woo,le sserafim">
+<meta name="description" content="We tract the hottest trends in music, fashion, movies, anime, gaming, cars,and sports so you never miss what's trending online.">
+<meta property="og:title" content="Trend Hubing">
+<meta property="og:description" content="We tract the hottest trends in music, fashion, movies, anime, gaming, cars,and sports so you never miss what's trending online.">
+<meta property="og:image" content="https://trendhubing-github.io/preview.png">
+<meta property="og:url" content="https://trendhubing-github.io">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#FF6FD8">
+
+<link rel="icon" type="image/png" href="home/images/favicon.png">
+<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#FF6FD8">
+<link rel="stylesheet" href="home/styles/style.css">
+</head>
+
+<body>
+<header>
+<h1>Trend Hubing</h1>
+<div id="searchbar">
+  <input type="text" id="searchinput" placeholder="Search trends..." onkeyup="livesearch()">
+<button onclick="searchfunction()">Search</button>
+<div id="results"></div>
+</div>
+</header>
+<div class="hero">🔥 All Trending Now </div>
+
+<section>
+<h2>🔥 All Trends 🔥</h2>
+<div id="alltrends">
+<div class="slider">
+<div class="card" onclick="gopage('home/color.html')"><img src="home/images/color.png"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING COLORS</h4></div></div>
+<div class="card" onclick="gopage('home/fashion.html')"><img src="home/images/sustainablefashion.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING FASHION</h4></div></div>
+<div class="card" onclick="gopage('home/jewelry.html')"><img src="home/images/matchingjewelrysets.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING JEWELRY</h4></div></div>
+<div class="card" onclick="gopage('home/food.html')"><img src="home/images/food.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING FOOD</h4></div></div>
+<div class="card" onclick="gopage('home/spicyfood.html')"><img src="home/images/burger.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>SPICY FOOD</h4></div></div>
+<div class="card"onclick="gopage('home/dessert.html')"><img src="home/images/charcoaldesserts.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>DESSERTS</h4></div></div>
+<div class="card" onclick="gopage('home/travel.html')"><img src="home/images/plane.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>DESTINATION</h4></div></div>
+<div class="card" onclick="gopage('home/adventure.html')"><img src="home/images/victoriafalls.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>ADVENTURE</h4></div></div>
+<div class="card" onclick="gopage('home/ride.html')"><img src="home/images/tormentarampagingrun.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING RIDES</h4></div></div>
+<div class="card" onclick="gopage('home/car.html')"><img src="home/images/bydseagullpro.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING CARS</h4></div></div>
+<div class="card" onclick="gopage('home/Sportcar.html')"><img src="home/images/nioet5touring.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>SPORT CARS</h4></div></div>
+<div class="card" onclick="gopage('home/electriccar.html')"><img src="home/images/teslamodel3.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>ELECTRIC CARS</h4></div></div>
+<div class="card" onclick="gopage('home/game.html')"><img src="home/images/thelegendofzenda.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING GAMES</h4></div></div>
+<div class="card" onclick="gopage('home/multigame.html')"><img src="home/images/haloinfinity.JPG"><div class="badge">🔥 Trending</div><div class="card-content"><h4>MULTIPLAYER GAMES</h4></div></div>
+<div class="card" onclick="gopage('home/pcgame.html')"><img src="home/images/fortnite.JPG"><div class="badge">🔥 Trending</div><div class="card-content"><h4>PC GAMES</h4></div></div>
+<div class="card" onclick="gopage('home/bts.html')"><img src="home/images/btscomeback.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>BTS 2026</h4></div></div>
+<div class="card" onclick="gopage('home/btssong.html')"><img src="home/images/btsworldtour.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>BTS SONGS</h4></div></div>
+<div class="card" onclick="gopage('home/btsbiography.html')"><img src="home/images/btsradioshowandpodcasts.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>BTS BIOGRAPHY</h4></div></div>
+<div class="card" onclick="gopage('home/kpop.html')"><img src="home/images/kpop.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>K-POP 2026</h4></div></div>
+<div class="card" onclick="gopage('home/bts.html')"><img src="home/images/btscollaborations.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>BTS</h4></div></div>
+<div class="card" onclick="gopage('home/bp.html')"><img src="home/images/bp.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>BLACKPINK</h4></div></div>
+<div class="card" onclick="gopage('home/movie.html')"><img src="home/images/movie.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING MOVIES</h4></div></div>
+<div class="card" onclick="gopage('home/cartoonmovie.html')"><img src="home/images/cartoonmovie.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>CARTOON MOVIES</h4></div></div>
+<div class="card" onclick="gopage('home/comedymovie.html')"><img src="home/images/comedymovie.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>COMEDY MOVIES</h4></div></div>
+<div class="card" onclick="gopage('home/anime.html')"><img src="home/images/anime.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING ANIMES</h4></div></div>
+<div class="card" onclick="gopage('home/animatedcartoon.html')"><img src="home/images/anime1.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>CARTOON ANIME</h4></div></div>
+<div class="card" onclick="gopage('home/comedyanime.html')"><img src="home/images/minions.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>COMEDY ANIME</h4></div></div>
+<div class="card" onclick="gopage('home/sport.html')"><img src="home/images/soccer.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING SPORTS</h4></div></div>
+<div class="card" onclick="gopage('home/outdoor.html')"><img src="home/images/golfpro.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>OUTDOOR GAMES</h4></div></div>
+<div class="card" onclick="gopage('home/indoor.html')"><img src="home/images/tabletennis.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>INDOOR GAMES</h4></div></div>
+</div></div>
+
+
+
+
+
+<div id="fashion">
+<h2>👗 Fashion Trends 🧥</h2>
+<div class="grid">
+<div class="card" onclick="gopage('home/color.html')"><img src="home/images/color.png"><div class="badge">🔥 Trending</div><div class="card-content"><h3>TRENDING COLORS</h3></div></div>
+<div class="card" onclick="gopage('home/fashion.html')"><img src="home/images/sustainablefashion.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>TRENDING FASHION</h3></div></div>
+<div class="card" onclick="gopage('home/jewelry.html')"><img src="home/images/matchingjewelrysets.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>TRENDING JEWELRY</h3></div></div>
+</div>
+<div id="floatingShare">
+    <a href="https://wa.me/?text=Check%20out%20Trend%20Hubing%20https://trendhubing-github.io" target="_blank" class="share-btn whatsapp" title="Share on Whats's App">📱</a>
+    <a href="https://www.instagram.com/" class="share-btn instagram" title="Copy link for Instagram" target="_blank" title="Share on Instagram">📸</a>
+    <button onclick="copyLink()" class="share-btn copy" style="font-size: 0.5rem;">Copy Link</button>
+</div>
+</div> 
+
+<div id="food">
+<h2>🌮 Food Trends 🍔</h2>
+<div class="grid">
+<div class="card" onclick="gopage('home/food.html')"><img src="home/images/food.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>TRENDING FOOD</h3></div></div>
+<div class="card" onclick="gopage('home/spicyfood.html')"><img src="home/images/burger.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>SPICY FOOD</h3></div></div>
+<div class="card"onclick="gopage('home/dessert.html')"><img src="home/images/charcoaldesserts.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>DESSERTS</h3></div></div>
+</div>
+<div id="floatingShare">
+    <a href="https://wa.me/?text=Check%20out%20Trend%20Hubing%20https://trendhubing-github.io" target="_blank" class="share-btn whatsapp" title="Share on Whats's App">📱</a>
+    <a href="https://www.instagram.com/" class="share-btn instagram" title="Copy link for Instagram" target="_blank" title="Share on Instagram">📸</a>
+    <button onclick="copyLink()" class="share-btn copy" style="font-size: 0.5rem;">Copy Link</button>
+</div>
+</div>
+
+<div id="travel">
+<h2>🌍 Travel Trends ✈️</h2>
+<div class="grid">
+<div class="card" onclick="gopage('home/travel.html')"><img src="home/images/plane.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>DESTINATION</h3></div></div>
+<div class="card" onclick="gopage('home/adventure.html')"><img src="home/images/victoriafalls.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>ADVENTURE</h3></div></div>
+<div class="card" onclick="gopage('home/ride.html')"><img src="home/images/tormentarampagingrun.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>TRENDING RIDES</h3></div></div>
+</div>
+<div id="floatingShare">
+    <a href="https://wa.me/?text=Check%20out%20Trend%20Hubing%20https://trendhubing-github.io" target="_blank" class="share-btn whatsapp" title="Share on Whats's App">📱</a>
+    <a href="https://www.instagram.com/" class="share-btn instagram" title="Copy link for Instagram" target="_blank" title="Share on Instagram">📸</a>
+    <button onclick="copyLink()" class="share-btn copy" style="font-size: 0.5rem;">Copy Link</button>
+</div>
+</div>
+
+<div id="car">
+<h2>🚗 Cars Trends 🚗</h2>
+<div class="grid">
+<div class="card" onclick="gopage('home/car.html')"><img src="home/images/bydseagullpro.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>TRENDING CARS</h3></div></div>
+<div class="card" onclick="gopage('home/Sportcar.html')"><img src="home/images/nioet5touring.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>SPORT CARS</h3></div></div>
+<div class="card" onclick="gopage('home/electriccar.html')"><img src="home/images/teslamodel3.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>ELECTRIC CARS</h3></div></div>
+</div>
+<div id="floatingShare">
+    <a href="https://wa.me/?text=Check%20out%20Trend%20Hubing%20https://trendhubing-github.io" target="_blank" class="share-btn whatsapp" title="Share on Whats's App">📱</a>
+    <a href="https://www.instagram.com/" class="share-btn instagram" title="Copy link for Instagram" target="_blank" title="Share on Instagram">📸</a>
+    <button onclick="copyLink()" class="share-btn copy" style="font-size: 0.5rem;">Copy Link</button>
+</div>
+</div>
+
+<div id="game">
+<h2>🎮 Game Trends 🎮</h2>
+<div class="grid">
+<div class="card" onclick="gopage('home/game.html')"><img src="home/images/thelegendofzenda.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>TRENDING GAMES</h3></div></div>
+<div class="card" onclick="gopage('home/multigame.html')"><img src="home/images/haloinfinity.JPG"><div class="badge">🔥 Trending</div><div class="card-content"><h3>MULTIPLAYER GAMES</h3></div></div>
+<div class="card" onclick="gopage('home/pcgame.html')"><img src="home/images/fortnite.JPG"><div class="badge">🔥 Trending</div><div class="card-content"><h3>PC GAMES</h3></div></div>
+</div>
+<div id="floatingShare">
+    <a href="https://wa.me/?text=Check%20out%20Trend%20Hubing%20https://trendhubing-github.io" target="_blank" class="share-btn whatsapp" title="Share on Whats's App">📱</a>
+    <a href="https://www.instagram.com/" class="share-btn instagram" title="Copy link for Instagram" target="_blank" title="Share on Instagram">📸</a>
+    <button onclick="copyLink()" class="share-btn copy" style="font-size: 0.5rem;">Copy Link</button>
+</div>
+</div>
+
+<div id="bts">
+<h2>🎶 BTS Trends 💜</h2>
+<div class="grid">
+<div class="card" onclick="gopage('home/bts.html')"><img src="home/images/btscomeback.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>BTS 2026</h3></div></div>
+<div class="card" onclick="gopage('home/btssong.html')"><img src="home/images/btsworldtour.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>BTS SONGS</h3></div></div>
+<div class="card" onclick="gopage('home/btsbiography.html')"><img src="home/images/btsradioshowandpodcasts.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>BTS BIOGRAPHY</h3></div></div>
+</div>
+<div id="floatingShare">
+    <a href="https://wa.me/?text=Check%20out%20Trend%20Hubing%20https://trendhubing-github.io" target="_blank" class="share-btn whatsapp" title="Share on Whats's App">📱</a>
+    <a href="https://www.instagram.com/" class="share-btn instagram" title="Copy link for Instagram" target="_blank" title="Share on Instagram">📸</a>
+    <button onclick="copyLink()" class="share-btn copy" style="font-size: 0.5rem;">Copy Link</button>
+</div>
+</div>
+
+<div id="kpop">
+<h2>🎶 K-pop Trends 🎤</h2>
+<div class="grid">
+<div class="card" onclick="gopage('home/kpop.html')"><img src="home/images/kpop.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>K-POP 2026</h3></div></div>
+<div class="card" onclick="gopage('home/bts.html')"><img src="home/images/btscollaborations.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>BTS</h3></div></div>
+<div class="card" onclick="gopage('home/bp.html')"><img src="home/images/bp.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>BLACKPINK</h3></div></div>
+</div>
+<div id="floatingShare">
+    <a href="https://wa.me/?text=Check%20out%20Trend%20Hubing%20https://trendhubing-github.io" target="_blank" class="share-btn whatsapp" title="Share on Whats's App">📱</a>
+    <a href="https://www.instagram.com/" class="share-btn instagram" title="Copy link for Instagram" target="_blank" title="Share on Instagram">📸</a>
+    <button onclick="copyLink()" class="share-btn copy" style="font-size: 0.5rem;">Copy Link</button>
+</div>
+</div>
+
+<div id="movie">
+<h2>🎬 Movie Trends 🍿</h2>
+<div class="grid">
+<div class="card" onclick="gopage('home/movie.html')"><img src="home/images/movie.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>TRENDING MOVIES</h3></div></div>
+<div class="card" onclick="gopage('home/cartoonmovie.html')"><img src="home/images/cartoonmovie.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>CARTOON MOVIES</h3></div></div>
+<div class="card" onclick="gopage('home/comedymovie.html')"><img src="home/images/comedymovie.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>COMEDY MOVIES</h3></div></div>
+</div>
+<div id="floatingShare">
+    <a href="https://wa.me/?text=Check%20out%20Trend%20Hubing%20https://trendhubing-github.io" target="_blank" class="share-btn whatsapp" title="Share on Whats's App">📱</a>
+    <a href="https://www.instagram.com/" class="share-btn instagram" title="Copy link for Instagram" target="_blank" title="Share on Instagram">📸</a>
+    <button onclick="copyLink()" class="share-btn copy" style="font-size: 0.5rem;">Copy Link</button>
+</div>
+</div>
+
+<div id="anime">
+<h2>🌸 Anime Trends 🎥</h2>
+<div class="grid">
+<div class="card" onclick="gopage('home/anime.html')"><img src="home/images/anime.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>TRENDING ANIMES</h3></div></div>
+<div class="card" onclick="gopage('home/animatedcartoon.html')"><img src="home/images/anime1.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>CARTOON ANIME</h3></div></div>
+<div class="card" onclick="gopage('home/comedyanime.html')"><img src="home/images/minions.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>COMEDY ANIME</h3></div></div>
+</div>
+<div id="floatingShare">
+    <a href="https://wa.me/?text=Check%20out%20Trend%20Hubing%20https://trendhubing-github.io" target="_blank" class="share-btn whatsapp" title="Share on Whats's App">📱</a>
+    <a href="https://www.instagram.com/" class="share-btn instagram" title="Copy link for Instagram" target="_blank" title="Share on Instagram">📸</a>
+    <button onclick="copyLink()" class="share-btn copy" style="font-size: 0.5rem;">Copy Link</button>
+</div>
+</div>
+
+<div id="sport">
+<h2>🏀 Sport Trends ⚽</h2>
+<div class="grid">
+<div class="card" onclick="gopage('home/sport.html')"><img src="home/images/soccer.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>TRENDING SPORTS</h3></div></div>
+<div class="card" onclick="gopage('home/outdoor.html')"><img src="home/images/golfpro.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>OUTDOOR GAMES</h3></div></div>
+<div class="card" onclick="gopage('home/indoor.html')"><img src="home/images/tabletennis.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h3>INDOOR GAMES</h3></div></div>
+</div>
+<div id="floatingShare">
+    <a href="https://wa.me/?text=Check%20out%20Trend%20Hubing%20https://trendhubing-github.io" target="_blank" class="share-btn whatsapp" title="Share on Whats's App">📱</a>
+    <a href="https://www.instagram.com/" class="share-btn instagram" title="Copy link for Instagram" target="_blank" title="Share on Instagram">📸</a>
+    <button onclick="copyLink()" class="share-btn copy" style="font-size: 0.5rem;">Copy Link</button>
+</div>
+</div>
+
+
+<h2>🔥 All Trends 🔥</h2>
+<div id="alltrends">
+<div class="slider">
+<div class="card" onclick="gopage('home/color.html')"><img src="home/images/color.png"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING COLORS</h4></div></div>
+<div class="card" onclick="gopage('home/fashion.html')"><img src="home/images/sustainablefashion.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING FASHION</h4></div></div>
+<div class="card" onclick="gopage('home/jewelry.html')"><img src="home/images/matchingjewelrysets.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING JEWELRY</h4></div></div>
+<div class="card" onclick="gopage('home/food.html')"><img src="home/images/food.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING FOOD</h4></div></div>
+<div class="card" onclick="gopage('home/spicyfood.html')"><img src="home/images/burger.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>SPICY FOOD</h4></div></div>
+<div class="card"onclick="gopage('home/dessert.html')"><img src="home/images/charcoaldesserts.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>DESSERTS</h4></div></div>
+<div class="card" onclick="gopage('home/travel.html')"><img src="home/images/plane.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>DESTINATION</h4></div></div>
+<div class="card" onclick="gopage('home/adventure.html')"><img src="home/images/victoriafalls.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>ADVENTURE</h4></div></div>
+<div class="card" onclick="gopage('home/ride.html')"><img src="home/images/tormentarampagingrun.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING RIDES</h4></div></div>
+<div class="card" onclick="gopage('home/car.html')"><img src="home/images/bydseagullpro.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING CARS</h4></div></div>
+<div class="card" onclick="gopage('home/Sportcar.html')"><img src="home/images/nioet5touring.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>SPORT CARS</h4></div></div>
+<div class="card" onclick="gopage('home/electriccar.html')"><img src="home/images/teslamodel3.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>ELECTRIC CARS</h4></div></div>
+<div class="card" onclick="gopage('home/game.html')"><img src="home/images/thelegendofzenda.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING GAMES</h4></div></div>
+<div class="card" onclick="gopage('home/multigame.html')"><img src="home/images/haloinfinity.JPG"><div class="badge">🔥 Trending</div><div class="card-content"><h4>MULTIPLAYER GAMES</h4></div></div>
+<div class="card" onclick="gopage('home/pcgame.html')"><img src="home/images/fortnite.JPG"><div class="badge">🔥 Trending</div><div class="card-content"><h4>PC GAMES</h4></div></div>
+<div class="card" onclick="gopage('home/bts.html')"><img src="home/images/btscomeback.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>BTS 2026</h4></div></div>
+<div class="card" onclick="gopage('home/btssong.html')"><img src="home/images/btsworldtour.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>BTS SONGS</h4></div></div>
+<div class="card" onclick="gopage('home/btsbiography.html')"><img src="home/images/btsradioshowandpodcasts.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>BTS BIOGRAPHY</h4></div></div>
+<div class="card" onclick="gopage('home/kpop.html')"><img src="home/images/kpop.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>K-POP 2026</h4></div></div>
+<div class="card" onclick="gopage('home/bts.html')"><img src="home/images/btscollaborations.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>BTS</h4></div></div>
+<div class="card" onclick="gopage('home/bp.html')"><img src="home/images/bp.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>BLACKPINK</h4></div></div>
+<div class="card" onclick="gopage('home/movie.html')"><img src="home/images/movie.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING MOVIES</h4></div></div>
+<div class="card" onclick="gopage('home/cartoonmovie.html')"><img src="home/images/cartoonmovie.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>CARTOON MOVIES</h4></div></div>
+<div class="card" onclick="gopage('home/comedymovie.html')"><img src="home/images/comedymovie.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>COMEDY MOVIES</h4></div></div>
+<div class="card" onclick="gopage('home/anime.html')"><img src="home/images/anime.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING ANIMES</h4></div></div>
+<div class="card" onclick="gopage('home/animatedcartoon.html')"><img src="home/images/anime1.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>CARTOON ANIME</h4></div></div>
+<div class="card" onclick="gopage('home/comedyanime.html')"><img src="home/images/minions.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>COMEDY ANIME</h4></div></div>
+<div class="card" onclick="gopage('home/sport.html')"><img src="home/images/soccer.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>TRENDING SPORTS</h4></div></div>
+<div class="card" onclick="gopage('home/outdoor.html')"><img src="home/images/golfpro.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>OUTDOOR GAMES</h4></div></div>
+<div class="card" onclick="gopage('home/indoor.html')"><img src="home/images/tabletennis.jpg"><div class="badge">🔥 Trending</div><div class="card-content"><h4>INDOOR GAMES</h4></div></div>
+</div></div>
+<button class="seemore" onclick="alert('More trends are coming soon 🔥')">🚧 Coming Soon</button>
+</section>
+
+<div id="footer">
+<div class="footer">
+<div class="brand">
+<h2>🔥 Trend Hubing</h2>
+<p>Your daily dose of what's Trending in fashion, food, travel, Games and pop culture.</p>
+</div>
+<div class="link">
+  <h3>Explore</h3>
+  <a href="home/fashion.html">Fashion</a>
+  <a href="home/food.html">Food</a>
+  <a href="home/game.html">Game</a>
+  <a href="home/bts.html">BTS</a>
+  <a href="home/car.html">Cars</a>
+  <a href="home/movie.html">Movies</a>
+</div>
+<div class="link">
+  <h3>Community</h3>
+  <a href="home/about.html">About Us</a>
+  <a href="home/contact.html">Contact</a>
+  <a href="home/privacy.html">Privacy Policy</a>
+  <a href="home/term.html">Terms & Conditions</a>
+</div>
+<div class="social">
+<h3>Follow Us</h3>
+<a href="https://www.instagram.com/trendhubing">
+  <svg width="100" height="100" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2c1.65 0 3 1.35 3 3v10c0 1.65-1.35 3-3 3H7c-1.65 0-3-1.35-3-3V7c0-1.65 1.35-3 3-3h10zm-5 3.5A5.5 5.5 0 1 0 17.5 13 5.51 5.51 0 0 0 12 7.5zm0 9A3.5 3.5 0 1 1 15.5 13 3.5 3.5 0 0 1 12 16.5zM18 6.2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+    </svg></a>
+</div>
+</div></div>
+<div class="right">© 2026 Trend Hubing • All Rights Reserved</div>
+
+<div id="bottomnav">
+  <a href="home.html">🏠 <br>Home</a>
+  <a href="#game">🎮<br> Games</a>
+  <a href="#kpop">🎤<br> K-Pop</a>
+  <a href="#bts">🎶<br>BTS</a>
+  <a href="#movie">🍿<br>Movies</a>
+  <a href="#fashion">🧥<br>Fashion</a>
+  <a href="#food">🍔<br>Food</a>
+  <a href="#car">🚗<br>Cars</a>
+  <a href="#anime">🌸<br>Anime</a>
+  <a href="#sport">⚽<br>Sports</a>
+  <a href="#fashion">🎨<br>Colors</a>
+  <a href="#travel">✈️<br>Travel</a>
+</div>
+<div id="swipeHint">⬅ Swipe →</div>
+<button id="installBtn" style="display:none";>Install App</button>
+
+<script src="home/javascripts/javascript.js"></script>
+
+</body>
+</html>

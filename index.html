@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <title>Trend Hubing</title>
+<link rel="icon" type="image/png" href="home/images/favicon.png">
+<style>
+    body
+    {margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(270deg,#FF6FD8,#06B6D4,#FF6FD8);}
+
+.logo
+    {width: 220px;
+    animation: logoFade 2s ease-in-out;}
+
+@keyframes logoFade{
+    0% {opacity: 0; transform: scale(0.9);}
+    50%{opacity: 1; transform: scale(1);}
+   100%{opacity: 1; transform: scale(1);}
+}
+</style>
+</head>
+<body>
+    <img src="home/images/favicon.png" alt="Logo" class="logo">
+
+<script>
+    setTimeout(()=>{localStorage.setItem("visited","true");
+    window.location.href="home.html";
+    }, 4000);
+</script>
+<script>
+    if("serviceWorker" in navigator){window.addEventListener("load",()=>{
+        navigator.serviceWorker.register("service-worker.js").then(()=>console.log("Service Worker Registerd"));
+    });}
+</script>
+</body>
+</html>
