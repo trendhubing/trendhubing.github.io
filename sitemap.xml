@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://trendhubing-github.io/</loc>
+    <loc>https://trendhubing-github.io/home.html</loc>
     <priority>1.0</priority>
   </url>
 
@@ -47,4 +47,5 @@
   <url><loc>https://trendhubing-github.io/home/travel.html</loc></url>
 
 </urlset>
+
 
