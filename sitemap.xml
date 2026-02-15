@@ -7,11 +7,6 @@
   </url>
 
   <url>
-    <loc>https://trendhubing-github.io/home.html</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
     <loc>https://trendhubing-github.io/home/adventure.html</loc>
     <priority>0.8</priority>
   </url>
@@ -52,3 +47,4 @@
   <url><loc>https://trendhubing-github.io/home/travel.html</loc></url>
 
 </urlset>
+
