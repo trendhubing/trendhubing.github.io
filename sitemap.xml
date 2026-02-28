@@ -2,51 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://trendhubing-github.io/home.html</loc>
+    <loc>https://trendhubing.github.io/</loc>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://trendhubing-github.io/home/adventure.html</loc>
+    <loc>https://trendhubing.github.io/home/adventure.html</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://trendhubing-github.io/home/animatedcartoon.html</loc>
+    <loc>https://trendhubing.github.io/home/animatedcartoon.html</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://trendhubing-github.io/home/bts.html</loc>
+    <loc>https://trendhubing.github.io/home/bts.html</loc>
     <priority>0.7</priority>
   </url>
-  <url><loc>https://trendhubing-github.io/home/anime.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/bp.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/btssong.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/car.html</loc></url>
- <url><loc>https://trendhubing-github.io/home/cartoonmovie.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/color.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/comedyanime.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/comedymovie.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/dessert.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/electriccar.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/fashion.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/food.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/game.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/indoor.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/jewerly.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/kpop.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/movie.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/multigame.html</loc></url>
- <url><loc>https://trendhubing-github.io/home/outdoor.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/pcgame.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/ride.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/spicyfood.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/sport.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/sportcar.html</loc></url>
-  <url><loc>https://trendhubing-github.io/home/travel.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/anime.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/bp.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/btssong.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/btsbiography.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/car.html</loc></url>
+ <url><loc>https://trendhubing.github.io/home/cartoonmovie.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/color.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/comedyanime.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/comedymovie.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/dessert.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/electriccar.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/fashion.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/food.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/game.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/indoor.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/jewerly.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/kpop.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/movie.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/multigame.html</loc></url>
+ <url><loc>https://trendhubing.github.io/home/outdoor.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/pcgame.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/ride.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/spicyfood.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/sport.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/sportcar.html</loc></url>
+  <url><loc>https://trendhubing.github.io/home/travel.html</loc></url>
 
 </urlset>
+
 
 
 
