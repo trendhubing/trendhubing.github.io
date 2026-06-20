@@ -259,17 +259,16 @@ h4{padding: 4px;font-size: 0.5rem;}}
 
 /*------------- INSTALL BUTTON ----------------*/
 #installBtn{display:block;margin:10px auto;padding:10px 20px;
-  background:black;
+ background: transparent;
   border:1px solid white ;border-radius:50px;
   cursor:pointer;transition:0.3s;
-  box-shadow:0 0 10px #06B6D4,0 0 20px #FF6FD8;
+  box-shadow:0 0 10px white,0 0 20px white;
   position:fixed;
   bottom:80px;
   right:30px;
   padding:12px 15px;
   color:white;
   font-size:18px;
-  box-shadow:0 0 10px #06B6D4,0 0 20px #FF6FD8;
   transition:0.3s;}
 
   /* Floating Share Bar */
