@@ -259,7 +259,7 @@ h4{padding: 4px;font-size: 0.5rem;}}
 
 /*------------- INSTALL BUTTON ----------------*/
 #installBtn{display:block;margin:10px auto;padding:10px 20px;
-  background:linear-gradient(45deg,#f58529,#dd2a7b,#ff8134af,#515bd4);
+  background:black;
   border:1px solid white ;border-radius:50px;
   cursor:pointer;transition:0.3s;
   box-shadow:0 0 10px #06B6D4,0 0 20px #FF6FD8;
