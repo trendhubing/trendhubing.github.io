@@ -31,9 +31,13 @@
     justify-content: center;
     background: white);}
 
-.logo
-    {width: 220px;
-    animation: logoFade 2s ease-in-out;}
+.logo{
+    width: 60vw;       /* 60% of screen width */
+    max-width: 350px;  /* Maximum size on large screens */
+    min-width: 180px;  /* Minimum size on small screens */
+    height: auto;
+    animation: logoFade 2s ease-in-out;
+}
 
 @keyframes logoFade{
     0% {opacity: 0; transform: scale(0.9);}
